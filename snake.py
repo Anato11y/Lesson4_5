@@ -17,6 +17,9 @@ dis_width = 600  # Ширина игрового окна
 dis_height = 400  # Высота игрового окна
 
 # Создание экрана
+icon = pygame.image.load('pngwing.png')  # Загрузка изображения иконки
+pygame.display.set_icon(icon)   # Установка иконки окна
+
 dis = pygame.display.set_mode((dis_width, dis_height))  # Устанавливаем размеры игрового окна
 pygame.display.set_caption('Змейка')  # Устанавливаем заголовок окна
 
