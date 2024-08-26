@@ -6,7 +6,7 @@ window_size = (800, 600)
 screen = pygame.display.set_mode(window_size)
 pygame.display.set_caption("Пинг-понг")
 
-image = pygame.image.load(”название_изображения”)
+image = pygame.image.load('pngwing.png')
 image_rect = image.get.rect()
 
 run = True
